@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>SuperCollider Tutorial</title>
+<meta name="author" content="(Konstantinos Vasilakos)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
+
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/moon.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">SuperCollider Tutorial</h1><h2 class="author">Konstantinos Vasilakos</h2><p class="date">Created: 2016-10-25 Tue 00:32</p>
+</section>
+<p>
+(or how to make a computer go beep!)
+</p>
+<section>
+<section id="slide-orgheadline8">
+<h2 id="orgheadline8"><span class="section-number-2">1</span> Introduction</h2>
+<p>
+SuperCollider<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup> is a programming environment for sound synthesis and algorithmic composition.
+It can be used for real time performances and to build interactive installations or create standalone applications,
+ such as VST plugins and audio processors. It is an Object Oriented Programming (OOP) language and it resembles to SmallTalk.
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E5C07B;">SinOsc</span>; <span style="color: #E5C07B;">LFNoise1</span>; <span style="color: #E5C07B;">GVerb</span>; <span style="color: #E5C07B;">BandPass</span>; <span style="color: #E5C07B;">TGrain</span>;
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline2">
+<h3 id="orgheadline2"><span class="section-number-3">1.1</span> The IDE</h3>
+<p>
+To run some code press cmd+Enter or shift+Enter,
+normally, the code resides in brackets <code>(...)</code> which can execute
+by double clicking inside the parenthesis
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">(
+a = {1 + 220 / (1 + 2 * 3); <span style="color: #98C379;">"Hello World!"</span>;};
+a.value;
+)
+</pre>
+</div>
+
+</section>
+<section id="slide-orgheadline1">
+<h4 id="orgheadline1"><span class="section-number-4">1.1.1</span> The Post Window</h4>
+<p>
+Reading errors, debugging code. The post window returns errors
+and messages during our interaction with SC
+</p>
+</section>
+<section id="slide-orgheadline3">
+<h3 id="orgheadline3"><span class="section-number-3">1.2</span> Help in SC</h3>
+</section>
+<section id="slide-orgheadline4">
+<h3 id="orgheadline4"><span class="section-number-3">1.3</span> methods</h3>
+<p>
+Ugens respond to a set of methods that instruct what to do. Most basic methods are .ar (audio rate) and .kr (control rate).
+For example, to hear a sine oscillator we would use .ar to use it as control we use .kr
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">ar</span> vs. <span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">kr</span>
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline5">
+<h3 id="orgheadline5"><span class="section-number-3">1.4</span> Comments</h3>
+<p>
+Sometimes we want to put some notes in our programs
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">ar</span>() <span style="color: #5C6370;">// </span><span style="color: #5C6370;">this is a sine oscillator!</span>
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline6">
+<h3 id="orgheadline6"><span class="section-number-3">1.5</span> Arrays</h3>
+<p>
+Arrays denoted with square brackets <code>[ ]</code> and take some methods
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">[ 1, 2, 3, 4 ].reverse; <span style="color: #5C6370;">//</span><span style="color: #5C6370;">reversing the order of the items in the array.</span>
+[ <span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">ar</span>, <span style="color: #E5C07B;">SinOsc</span>] <span style="color: #5C6370;">// </span><span style="color: #5C6370;">this is also possible, covered later</span>
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline7">
+<h3 id="orgheadline7"><span class="section-number-3">1.6</span> Symbols</h3>
+<p>
+Symbols are unique names denoted by \ or ' '
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #56B6C2;">\foo</span> <span style="color: #56B6C2;">'foo'</span> <span style="color: #5C6370;">//</span><span style="color: #5C6370;">same thing</span>
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline9">
+<h2 id="orgheadline9"><span class="section-number-2">2</span> Variables</h2>
+<p>
+A variable is used to assign a value or Ugen to a name so it can be used by calling it.
+<i>~globalVar can be used anywhere in the program.</i>
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">(
+<span style="color: #E06C75;">~globalVar</span> = 20.0; <span style="color: #5C6370;">// </span><span style="color: #5C6370;">a global variable can be also defined anytime</span>
+<span style="color: #C678DD;">var</span> aVar = 20.0; <span style="color: #5C6370;">// </span><span style="color: #5C6370;">this variable can be used only inside a region</span>
+<span style="color: #C678DD;">var</span> msx = <span style="color: #E5C07B;">MouseX</span>.<span style="color: #61AFEF;">kr</span>();
+)
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline14">
+<h2 id="orgheadline14"><span class="section-number-2">3</span> Functions</h2>
+<p>
+Functions are building blocks of our patches and are denoted using
+curly brackets {&#x2026;} can take method, such as .play
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">x = { i = 5; i.postln; }; or  [1, 2, 3, 4].do{ <span style="color: #C678DD;">arg</span> i; i.postln; };
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline13">
+<h3 id="orgheadline13"><span class="section-number-3">3.1</span> Interaction with arguments</h3>
+<p>
+To interact with a function we need to define arguments and give a default value e.g.
+<code>{arg foo = 2;}</code> or using | |
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">x = { <span style="color: #C678DD;">arg</span> foo = 2; foo + 10.rand };
+x.value; <span style="color: #5C6370;">// </span><span style="color: #5C6370;">this evaluates the function</span>
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline10">
+<h4 id="orgheadline10"><span class="section-number-4">3.1.1</span> example with sound:</h4>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">x = {
+        <span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">ar</span>(<span style="color: #E06C75;">freq:</span><span style="color: #56B6C2;">\foo</span>.<span style="color: #61AFEF;">kr</span>(220.0), <span style="color: #E06C75;">mul:</span>0.6) <span style="color: #5C6370;">// </span><span style="color: #5C6370;">defining directly in Ugen</span>
+}.play;
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline11">
+<h4 id="orgheadline11"><span class="section-number-4">3.1.2</span> now we can change the frequency with this line</h4>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">x.set(<span style="color: #56B6C2;">\foo</span>, 420.0);
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline12">
+<h4 id="orgheadline12"><span class="section-number-4">3.1.3</span> Tip: different functions can have same arguments</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline16">
+<h2 id="orgheadline16"><span class="section-number-2">4</span> Control Structure</h2>
+<p>
+Boolean true -if this, do that!
+</p>
+</section>
+<section id="slide-orgheadline15">
+<h3 id="orgheadline15"><span class="section-number-3">4.1</span> Conditionals</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">(
+a = 1;
+<span style="color: #61AFEF;">if</span>(a == 1) { <span style="color: #98C379;">"true"</span>.postln } {<span style="color: #98C379;">"false"</span>.postln }; <span style="color: #5C6370;">// </span><span style="color: #5C6370;">if equal then true</span>
+)
+
+(
+a = 2;
+<span style="color: #61AFEF;">if</span>(a &gt; 1) { <span style="color: #98C379;">"true"</span>.postln } {<span style="color: #98C379;">"false"</span>.postln }; <span style="color: #5C6370;">// </span><span style="color: #5C6370;">if bigger then true</span>
+)
+</pre>
+</div>
+<p>
+<i>there is also else, while, and for</i>
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline18">
+<h2 id="orgheadline18"><span class="section-number-2">5</span> SynthDefs</h2>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">(
+<span style="color: #E5C07B;">SynthDef</span>.new(<span style="color: #56B6C2;">\blip</span>, {| out = 0 |
+<span style="color: #C678DD;">var</span> sig, env;
+
+        sig = <span style="color: #E5C07B;">SinOsc</span>.<span style="color: #61AFEF;">ar</span>(<span style="color: #56B6C2;">\freq</span>.<span style="color: #61AFEF;">kr</span>(220, 0.3));
+        env = <span style="color: #E5C07B;">EnvGen</span>.<span style="color: #61AFEF;">kr</span>(<span style="color: #E5C07B;">Env</span>.perc(<span style="color: #56B6C2;">\attack</span>.<span style="color: #61AFEF;">kr</span>(0.03), <span style="color: #56B6C2;">\release</span>.<span style="color: #61AFEF;">kr</span>(0.5),
+        <span style="color: #E06C75;">doneAction:</span> 2);
+        sig = sig * env * <span style="color: #56B6C2;">\amp</span>.<span style="color: #61AFEF;">kr</span>(0.2);
+        sig = <span style="color: #E5C07B;">Pan2</span>.<span style="color: #61AFEF;">ar</span>(sig, <span style="color: #E5C07B;">LFNoise1</span>.<span style="color: #61AFEF;">kr</span>(1).range(-1,1));
+
+        <span style="color: #E5C07B;">Out</span>.<span style="color: #61AFEF;">ar</span>(out, sig)
+}).add;
+)
+</pre>
+</div>
+</section>
+<section id="slide-orgheadline17">
+<h3 id="orgheadline17"><span class="section-number-3">5.1</span> Synth</h3>
+<p>
+Synths are instances of SynthDefs and provide ways to interact with
+Once we initiate it with something like this:
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E06C75;">~synth</span> = <span style="color: #E5C07B;">Synth</span>(<span style="color: #56B6C2;">\blip</span>, [<span style="color: #56B6C2;">\freq</span>, 440] );
+</pre>
+</div>
+<p>
+We use .set to interact from anywhere i.e a GUI, or another function.
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E06C75;">~synth</span>.set(<span style="color: #56B6C2;">\freq</span>, 620.0);
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline19">
+<h2 id="orgheadline19"><span class="section-number-2">6</span> Tasks, Routines</h2>
+<p>
+Tasks and routines are used to schedule various things
+</p>
+<div class="org-src-container">
+
+<pre  class="src src-sclang">(
+t = <span style="color: #E5C07B;">Task</span>({|i| 10.do{ ( rrand(1, 10) * i.squostln; 0.25.wait;} });
+)
+t.start;
+t.stop;
+t.pause;
+t.resume;
+t.reset;
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline22">
+<h2 id="orgheadline22"><span class="section-number-2">7</span> Events</h2>
+<div class="outline-text-2" id="text-7">
+</div></section>
+<section id="slide-orgheadline20">
+<h3 id="orgheadline20"><span class="section-number-3">7.1</span> Streams</h3>
+</section>
+<section id="slide-orgheadline21">
+<h3 id="orgheadline21"><span class="section-number-3">7.2</span> Patterns</h3>
+<div class="org-src-container">
+
+<pre  class="src src-sclang"><span style="color: #E5C07B;">Pbindef</span>(<span style="color: #56B6C2;">\x</span>, <span style="color: #56B6C2;">\dur</span>, 0.2, <span style="color: #56B6C2;">\freq</span>, <span style="color: #E5C07B;">Prand</span>(<span style="color: #E5C07B;">Array</span>.series(10, 100, 100), <span style="color: #56B6C2;">inf</span>)).play;
+</pre>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline23">
+<h2 id="orgheadline23"><span class="section-number-2">8</span> JITLib</h2>
+<p>
+JITLib is a library for SC that provides ways
+to interact with running processes and other conveniences for live coding.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline24">
+<h2 id="orgheadline24"><span class="section-number-2">9</span> Resources</h2>
+<p>
+SC <a href="http://supercollider.github.io">homepage</a>
+SC <a href="http://doc.sccode.org/Guides/Glossary.html">Glossary</a>
+Examples of code <a href="http://sccode.org">SCCode.org</a>
+</p>
+
+<p>
+Other reading material and <a href="https://ccrma.stanford.edu/~ruviaro/texts/A_Gentle_Introduction_To_SuperCollider.pdf">documentation</a> of SC.
+</p>
+
+<p>
+The material of the JITLib workshop can be found at <a href="https://github.com/KonVas/Ionio-liveCode-workshop">this repository in GitHub</a>.
+</p>
+</section>
+</section>
+<section>
+<section id="slide-orgheadline25">
+<h2 id="orgheadline25"><span class="section-number-2">10</span> Credits</h2>
+<p>
+Julian Rohrhuber for <a href="http://wertlos.org/~rohrhuber/">JITLib</a>
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
