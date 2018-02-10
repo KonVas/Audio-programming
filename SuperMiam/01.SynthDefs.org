@@ -7,7 +7,7 @@ type SynthDef, it has to have a unique name, once is created we need to load it
 on the Server using the message '.add'. Now is a good time to boot the Server.
 
 
-(
+```(
 SynthDef(\mySynth, {|out = 0, amp = 0.6| 
 	var sig; sig = SinOsc.ar([120.0, 121.0]); // a two output sine oscillator synth. 
 	sig = sig / 2;
@@ -16,7 +16,7 @@ SynthDef(\mySynth, {|out = 0, amp = 0.6|
 )
 
 Synth(\mySynth);
-
+```
 Our SynthDef is a (two output) sine oscillator synthesizer with fixed values
 (leftChannel:120.0, rightChannel:121.0), and it takes advantage of /multichannel
 expansion/ in SC which is implemented using an array. This is one of the
