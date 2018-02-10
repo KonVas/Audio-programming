@@ -6,7 +6,7 @@ musical parameters of the sound synthesis on a higher level. To create it we
 type SynthDef, it has to have a unique name, once is created we need to load it
 on the Server using the message '.add'. Now is a good time to boot the Server.
 
-#+BEGIN_SOURCE js 
+#+BEGIN_SOURCE sclang
 (
 SynthDef(\mySynth, {|out = 0, amp = 0.6| 
 	var sig; sig = SinOsc.ar([120.0, 121.0]); // a two output sine oscillator synth. 
