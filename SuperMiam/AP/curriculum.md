@@ -28,9 +28,9 @@
   |   15 | May 16       | Networking in SC.                                                                                |
   |   16 | June 1       | Final project (digital instrument/live performance environment).                                 |
 
-  ## Suggested topics
-  ### not in a particular order
-     * Introduction.
+# Suggested topics
+### not in a particular order.
+  * Introduction.
        * "Hello World!" and the IDE.
        * Scoping variables (global vs. local variables).
        * Parens (calculations).
@@ -56,6 +56,6 @@
        * Working locally (i.e., [Pure Data] [2] and SC interaction).
        * Remote Server communication.
 
-  # Footnotes
-    [1] http://supercollider.github.io/
-    [2] https://puredata.info/
+# Footnotes
+[1]: http://supercollider.github.io/
+[2]: https://puredata.info/
