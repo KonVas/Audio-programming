@@ -1,13 +1,13 @@
-
-  # Audio Programming Class (AP)
-    The course aims to introduce students to programming of musical software using
-    the [SuperCollider] [1] (open-source) programming language, a state of the art
-    platform for audio synthesis and algorithmic composition. It will elaborate in
-    programming concepts for real time sound synthesis software for various
-    contexts including laptop performances to interactive installations. Some
-    ready made implementations of sound synthesis techniques will be provided.
-    Student output will be in the form of weekly coding assignments as well as
-    final projects mainly demonstrating debugging and development skills.
+# Audio Programming Class (AP)
+  
+  The course aims to introduce students to programming of musical software using
+  the [SuperCollider] [1] (open-source) programming language, a state of the art
+  platform for audio synthesis and algorithmic composition. It will elaborate in
+  programming concepts for real time sound synthesis software for various
+  contexts including laptop performances to interactive installations. Some
+  ready made implementations of sound synthesis techniques will be provided.
+  Student output will be in the form of weekly coding assignments as well as
+  final projects mainly demonstrating debugging and development skills.
 
   | Week | Date         | Topic                                                                                            |
   |------|--------------|--------------------------------------------------------------------------------------------------|
@@ -57,6 +57,5 @@
        + Remote Server communication.
 
   # Footnotes
-  [2] https://puredata.info/
-
-  [1] http://supercollider.github.io/
+    [1] http://supercollider.github.io/
+    [2] https://puredata.info/
