@@ -20,7 +20,7 @@
   |    7 | March 21     | Granulation with patterns of SC.                                                                 |
   |    8 | March 28     | Mid term break.                                                                                  |
   |    9 | April 4      | Algorithmic composition (events, streams, patterns, and stochastic processes).                   |
-  |   10 | April 11     | Scheduling: tasks routines and /just in time/ scheduling in SC.                                  |
+  |   10 | April 11     | Scheduling: tasks routines and *just in time* scheduling in SC.                                   |
   |   11 | April 18     | Sound analysis (FFT).                                                                            |
   |   12 | April 25     | JITLib overview: Ndefs, placeholders and proxies.                                                |
   |   13 | May 2        | Graphical User Interfaces (GUI) in SC.                                                           |
@@ -29,7 +29,7 @@
   |   16 | June 1       | Final project (digital instrument/live performance environment).                                 |
 
 # Suggested topics
-### not in a particular order.
+### not in any particular order...
   * Introduction.
        * "Hello World!" and the IDE.
        * Scoping variables (global vs. local variables).
