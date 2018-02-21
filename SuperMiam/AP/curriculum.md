@@ -45,7 +45,7 @@
        + Recording and generating audio files.
      + Sound Synthesis Techniques:
        + Additive, Subtractive, Granulation, etc.
-     + Control
+     + Control and interaction.
        + Interacting with SynthDefs, algorithmic composition.
        + Higher level control of SynthDefs (Streams & Events).
        + Specs (mapping and manipulation of control signals).
