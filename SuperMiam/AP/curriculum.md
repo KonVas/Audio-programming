@@ -30,31 +30,31 @@
 
   ## Suggested topics
   ### not in a particular order
-     + Introduction.
-       + "Hello World!" and the IDE.
-       + Scoping variables (global vs. local variables).
-       + Parens (calculations).
-       + Arrays (ordered collections).
-       + Functions (the building blocks of programs).
-       + Function callbacks and passing arguments.
-       + Functional programming and Operators.
-     + Digital Signal Processing (DSP).
-       + Functions and sound synthesis.
-       + UGens (audio unit generators).
-       + Synth definitions and functions.
-       + Recording and generating audio files.
-     + Sound Synthesis Techniques:
-       + Additive, Subtractive, Granulation, etc.
-     + Control and interaction.
-       + Interacting with SynthDefs, algorithmic composition.
-       + Higher level control of SynthDefs (Streams & Events).
-       + Specs (mapping and manipulation of control signals).
-     + External communication in SC.
-       + Communication protocol implementations.
-       + Mapping of external controllers/hardware interfaces.
-     + Networking in SC.
-       + Working locally (i.e., [Pure Data] [2] and SC interaction).
-       + Remote Server communication.
+     * Introduction.
+       * "Hello World!" and the IDE.
+       * Scoping variables (global vs. local variables).
+       * Parens (calculations).
+       * Arrays (ordered collections).
+       * Functions (the building blocks of programs).
+       * Function callbacks and passing arguments.
+       * Functional programming and Operators.
+     * Digital Signal Processing (DSP).
+       * Functions and sound synthesis.
+       * UGens (audio unit generators).
+       * Synth definitions and functions.
+       * Recording and generating audio files.
+     * Sound Synthesis Techniques:
+       * Additive, Subtractive, Granulation, etc.
+     * Control and interaction.
+       * Interacting with SynthDefs, algorithmic composition.
+       * Higher level control of SynthDefs (Streams & Events).
+       * Specs (mapping and manipulation of control signals).
+     * External communication in SC.
+       * Communication protocol implementations.
+       * Mapping of external controllers/hardware interfaces.
+     * Networking in SC.
+       * Working locally (i.e., [Pure Data] [2] and SC interaction).
+       * Remote Server communication.
 
   # Footnotes
     [1] http://supercollider.github.io/
