@@ -3,7 +3,7 @@
 [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/images/SCScreenshot.png]]
 
 The course aims to introduce students to programming of musical software
-using the SuperCollider[fn:2]
+using the SuperCollider [fn:2]
 (open-source) programming language, a state of the art platform for
 audio synthesis and algorithmic composition. It will elaborate in
 programming concepts for real time sound synthesis software used in various
@@ -53,9 +53,10 @@ contexts including laptop performances to interactive installations and electroa
   - Communication protocol implementations.
   - Mapping of external controllers/hardware interfaces.
 - Networking in SC:
-  - Working locally (i.e., Pure Data[fn:1] and SC).
+  - Working locally (i.e., Pure Data [fn:1] and SC).
   - Remote Server communication.
 
 * Footnotes
 [fn:1] https://puredata.info/
+
 [fn:2] http://supercollider.github.io/
