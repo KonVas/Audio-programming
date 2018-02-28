@@ -17,7 +17,7 @@ contexts including laptop performances to interactive installations and electroa
 |    1 | February 7  | "Hello World!" Introduction in SC and the IDE.                                      |           |
 |    2 | February 14 | Server vs. SClang architecture. Mathematical operations, arrays, scoping variables. |           |
 |    3 | February 21 | Functions, passing arguments, and data manipulation.                                |           |
-|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.        | SynthDefs |
+|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.        | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] |
 |    5 | March 7     | Control/interaction with SynthDefs (coninued from Feb. 28).                         |           |
 |    6 | March 14    | Manipulating SynthDef signals using effects and busses (coninued from March 7).     |           |
 |    7 | March 21    | Granulation with patterns of SC.                                                    |           |
