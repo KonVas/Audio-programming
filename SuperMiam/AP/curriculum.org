@@ -9,23 +9,23 @@ programming concepts for real time sound synthesis software used in various
 contexts including laptop performances to interactive installations and
 electroacoustic works.
 
-| Week | Date        | Topic                                                                               | Demos     | Examples         |
-|------+-------------+-------------------------------------------------------------------------------------+-----------+------------------|
-|    1 | February 7  | "Hello World!" Introduction in SC and the IDE.                                      |           |                  |
-|    2 | February 14 | Server vs. SClang architecture. Mathematical operations, arrays, scoping variables. |           |                  |
-|    3 | February 21 | Functions, passing arguments, and data manipulation (iteration).                    |           | [[file:./Examples/Functions/][Functions]]        |
-|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.        | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][SynthDef recipes]] |
-|    5 | March 7     | Control/interaction with SynthDefs (coninued from Feb. 28).                         |           |                  |
-|    6 | March 14    | Manipulating SynthDef signals using effects and busses (continued from March 7).    |           |                  |
-|    7 | March 21    | Granulation with patterns of SC.                                                    |           |                  |
-|    8 | March 28    | Mid term break.                                                                     |           |                  |
-|    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).      |           |                  |
-|   10 | April 11    | Scheduling: tasks routines and /just in time/ scheduling in SC.                     |           |                  |
-|   11 | April 18    | Sound analysis (FFT).                                                               |           |                  |
-|   12 | April 25    | JITLib overview: Ndefs, placeholders and proxies.                                   |           |                  |
-|   13 | May 2       | Graphical User Interfaces (GUI) in SC.                                              |           |                  |
-|   14 | May 9       | External communication, controlers and OSC.                                         |           |                  |
-|   15 | June 1      | Final project (digital instrument/live performance environment).                    |           |                  |
+| Week | Date        | Topic                                                                                        | Demos     | Examples         |
+|------+-------------+----------------------------------------------------------------------------------------------+-----------+------------------|
+|    1 | February 7  | "Hello World!" Introduction to SC and the IDE.                                               |           |                  |
+|    2 | February 14 | Server vs. SClang architecture and mathematical operations, arrays                           |           |                  |
+|    3 | February 21 | Functions, passing arguments, local vs. global variables, and data manipulation (iteration). |           | [[file:./Examples/Functions/][Functions]]        |
+|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][SynthDef recipes]] |
+|    5 | March 7     | Control/interaction with SynthDefs (coninued from Feb. 28).                                  |           |                  |
+|    6 | March 14    | Manipulating SynthDef signals using effects and busses (continued from Feb 28, and March 7). |           |                  |
+|    7 | March 21    | Granulation with patterns of SC.                                                             |           |                  |
+|    8 | March 28    | Mid term break.                                                                              |           |                  |
+|    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).               |           |                  |
+|   10 | April 11    | Scheduling: tasks routines and /just in time/ scheduling in SC.                              |           |                  |
+|   11 | April 18    | Sound analysis (FFT).                                                                        |           |                  |
+|   12 | April 25    | JITLib overview: Ndefs, placeholders and proxies.                                            |           |                  |
+|   13 | May 2       | Built-in Graphical User Interfaces (GUI) in SC.                                              |           |                  |
+|   14 | May 9       | External communication, controlers and OSC.                                                  |           |                  |
+|   15 | June 1      | Final project (digital instrument/live performance environment).                             |           |                  |
 
 * Suggested topics
 - Introduction:
