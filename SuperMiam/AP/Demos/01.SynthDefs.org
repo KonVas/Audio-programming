@@ -1,4 +1,3 @@
-
 * SynthDefs
 A `SynthDef` provides the interface to create sound synthesis modules in
 SuperCollider. It also offers a set of interaction capabilities to alter the
@@ -6,7 +5,7 @@ musical parameters of the sound synthesis on a higher level. To create it we
 type SynthDef, it has to have a unique name, once is created we need to load it
 on the Server using the message '.add'. Now is a good time to boot the Server.
 
-
+#+BEGIN_SOURCE js
 (
 SynthDef(\mySynth, {|out = 0, amp = 0.6| 
 	var sig; sig = SinOsc.ar([120.0, 121.0]); // a two output sine oscillator synth. 
@@ -16,6 +15,7 @@ SynthDef(\mySynth, {|out = 0, amp = 0.6|
 )
 
 Synth(\mySynth);
+#+END_SOURCE js
 
 Our SynthDef is a (two output) sine oscillator synthesizer with fixed values
 (leftChannel:120.0, rightChannel:121.0), and it takes advantage of /multichannel
@@ -36,7 +36,7 @@ see how the envelope of the synthesizer will look like.
 Env.new([0, 1, 0.9, 0], [0.1, 0.5, 1],[-5, 0, -5]).plot;
 #+END_SOURCE
 
-Envelope on our previous SynthDef.
+Apply an Envelope on our previous SynthDef.
 #+BEGIN_SOURCE js
 (
 SynthDef(\myEnvSynth, {|out = 0, amp = 0.3| 
@@ -53,8 +53,10 @@ Synth(\myEnvSynth);
 
 Assuming the previous SynthDef is loaded we can assign the Synth class to a variable like this below:
 
+#+BEGIN_SOURCE js
 x = Synth(\myEnvSynth); // x now is our Synth and can be used anywhere in our program as it is a global variable.
 x.set(\amp, 0.1); // the set message requires the name of the parameter and a value.
+#+END_SOURCE js
 
 ** Discussion: anatomy of a SynthDef
 A SynthDef is the sound engine of our program or instrument we are building. It
