@@ -3,7 +3,7 @@
   :CUSTOM_ID: audio-programming-class-ap
   :END:
 
-[[file:SuperMiam/SuperMiam/AP/images/SCScreenshot.png]]
+[https://supercollider.github.io/][file:www.github.com/KonVas/SuperMiam/SuperMiam/AP/images/SCScreenshot.png]]
 
 The course aims to introduce students to programming of musical software
 using the SuperCollider[fn:2]
