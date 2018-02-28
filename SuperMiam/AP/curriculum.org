@@ -4,15 +4,11 @@
   :END:
 
 The course aims to introduce students to programming of musical software
-using the [SuperCollider] [[http://supercollider.github.io/][1]]
+using the SuperCollider[fn:2]
 (open-source) programming language, a state of the art platform for
 audio synthesis and algorithmic composition. It will elaborate in
-programming concepts for real time sound synthesis software for various
-contexts including laptop performances to interactive installations.
-Some ready made implementations of sound synthesis techniques will be
-provided. Student output will be in the form of weekly coding
-assignments as well as final projects mainly demonstrating debugging and
-development skills.
+programming concepts for real time sound synthesis software used in various
+contexts including laptop performances to interactive installations and electroacoustic works.
 
 | Week   | Date          | Topic                                                                                 |
 |--------+---------------+---------------------------------------------------------------------------------------|
@@ -34,51 +30,34 @@ development skills.
 | 16     | June 1        | Final project (digital instrument/live performance environment).                      |
 
 * Suggested topics
-  :PROPERTIES:
-  :CUSTOM_ID: suggested-topics
-  :END:
-
-*** not in any particular order...
-    :PROPERTIES:
-    :CUSTOM_ID: not-in-any-particular-order
-    :END:
-
 - Introduction.
   - "Hello World!" and the IDE.
-  - Scoping variables (global vs. local variables).
+  - Scoping variables (global vs. local variables).
   - Parens (calculations).
   - Arrays (ordered collections).
   - Functions (the building blocks of programs).
   - Function callbacks and passing arguments.
   - Functional programming and Operators.
-  - Digital Signal Processing (DSP).
+- Digital Signal Processing (DSP).
     - Functions and sound synthesis.
     - UGens (audio unit generators).
     - Synth definitions and functions.
- - Recording and generating audio files.
-
-  - Sound Synthesis Techniques:
-
-    - Additive, Subtractive, Granulation, etc.
-
-  - Control and interaction.
-
+- Recording and generating audio files.
+- Sound Synthesis Techniques:
+  - Additive, Subtractive, Granulation, etc.
+- Control and interaction.
     - Interacting with SynthDefs, algorithmic composition.
     - Higher level control of SynthDefs (Streams & Events).
     - Specs (mapping and manipulation of control signals).
-
-  - External communication in SC.
-
+- External communication in SC.
     - Communication protocol implementations.
     - Mapping of external controllers/hardware interfaces.
-
-  - Networking in SC.
-
-    - Working locally (i.e., [Pure Data] [[https://puredata.info/][2]]
-      and SC interaction).
+- Networking in SC.
+    - Working locally (i.e., Pure Data[fn:1] and SC).
     - Remote Server communication.
 
 * Footnotes
-  :PROPERTIES:
-  :CUSTOM_ID: footnotes
-  :END:
+
+[fn:1] https://puredata.info/
+
+[fn:2] http://supercollider.github.io/
