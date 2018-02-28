@@ -1,5 +1,5 @@
 * SynthDefs
-A `SynthDef` provides the interface to create sound synthesis modules in
+A SynthDef provides the interface to create sound synthesis modules in
 SuperCollider. It also offers a set of interaction capabilities to alter the
 musical parameters of the sound synthesis on a higher level. To create it we
 type SynthDef, it has to have a unique name, once is created we need to load it
@@ -32,13 +32,11 @@ to keep SynthDefs simple  and create other ones for extra manipulation.
 To apply ADSR properties to a SynthDef we use an Env specification. To be able
 to retrigger the envelope we use an EnvGen. Run this line below and
 see how the envelope of the synthesizer will look like.
-
-#+BEGIN_SOURCE js
+#+BEGIN_SRC ruby
 Env.new([0, 1, 0.9, 0], [0.1, 0.5, 1],[-5, 0, -5]).plot;
-#+END_SOURCE
-
+#+END_SRC
 Apply an Envelope on our previous SynthDef.
-#+BEGIN_SOURCE js
+#+BEGIN_SRC ruby
 (
 SynthDef(\myEnvSynth, {|out = 0, amp = 0.3| 
 	var sig, env;
@@ -49,15 +47,15 @@ SynthDef(\myEnvSynth, {|out = 0, amp = 0.3|
 }).add;
 )
 
-Synth(\myEnvSynth);
-#+END_SOURCE
+Synth(\myEnvSynth); 
+#+END_SRC
 
 Assuming the previous SynthDef is loaded we can assign the Synth class to a variable like this below:
 
-#+BEGIN_SOURCE js
+#+BEGIN_SRC ruby
 x = Synth(\myEnvSynth); // x now is our Synth and can be used anywhere in our program as it is a global variable.
 x.set(\amp, 0.1); // the set message requires the name of the parameter and a value.
-#+END_SOURCE js
+#+END_SRC
 
 ** Discussion: anatomy of a SynthDef
 A SynthDef is the sound engine of our program or instrument we are building. It
