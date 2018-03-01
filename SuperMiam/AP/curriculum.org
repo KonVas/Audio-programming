@@ -14,10 +14,10 @@ electroacoustic works.
 |    1 | February 7  | "Hello World!" Introduction to SC and the IDE.                                               |           |                  |
 |    2 | February 14 | Server vs. SClang architecture and mathematical operations, arrays                           |           |                  |
 |    3 | February 21 | Functions, passing arguments, local vs. global variables, and data manipulation (iteration). |           | [[file:./Examples/Functions/][Functions]]        |
-|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][SynthDef recipes]] |
-|    5 | March 7     | Control/interaction with SynthDefs (coninued from Feb. 28).                                  |           |                  |
+|    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][Synths recipes]]   |
+|    5 | March 7     | Control specs and interaction with SynthDefs (continued from Feb. 28).                       |           |                  |
 |    6 | March 14    | Manipulating SynthDef signals using effects and busses (continued from Feb 28, and March 7). |           |                  |
-|    7 | March 21    | Streams and events (patterns)                                                                |           |                  |
+|    7 | March 21    | Streams and events (patterns).                                                               |           |                  |
 |    8 | March 28    | Mid term break.                                                                              |           |                  |
 |    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).               |           |                  |
 |   10 | April 11    | Scheduling: tasks routines and /just in time/ scheduling in SC.                              |           |                  |
