@@ -1,6 +1,6 @@
 * Higher level control of SynthDefs
 
-#+BEGIN_SRC sclang
+#+BEGIN_SRC ruby
 (
 SynthDef(\blip, {|out = 0, amp = 0.6, dur = 1, freq = 1|
 	var sig, env;
@@ -24,7 +24,7 @@ SynthDef(\crackle, {|out = 0, chaos = 1.5, amp = 0.6, envDur = 0.3|
 
 Run this only to make sure that the SynthDefs are loaded and sound...
 
-#+BEGIN_SRC sclang
+#+BEGIN_SRC ruby
 x = Synth(\blip, [\amp, 0.4, \out, 0, \dur, 1.0.rand]); //create an instance of 'drony' and assign it on a global var 'x'
 y = Synth(\sawy, [\amp, 0.4, \out, 0, \dur, 10, \speed, 10]); //create an instance of 'saw' and assign it on a global var 'y'
 #+END_SRC
@@ -36,7 +36,7 @@ of the SynthDefs in order to manipulate the sound outcome in real time.
 SuperCollider provides a wealth of patterns, implementing from random
 distribution to sequential distribution of values.
 
-#+BEGIN_SRC sclang
+#+BEGIN_SRC ruby
 a = Pseq([1, 2, 3, 4], inf).asStream; //sequence of values from 1 to 4.
 a.next; // run the sequence using. ~next~ method.
 #+END_SRC
@@ -61,14 +61,14 @@ Pbind(\instrument, \sawy, \dur, 0.01, \speed, 2, \freq, 1).play;
 
 To change something without stopping the sound use a Pdef.
 **** Pdef example
-#+BEGIN_SRC sclang
+#+BEGIN_SRC ruby
 Pdef(\x).play;
 Pdef(\x,  Pbind(\instrument, \crackle, \dur, 2));
 Pdef(\x, Pbind(\instrument, \crackle, \chaos, Pwhite(0.1, 2.0, inf),  \envDur, 0.3, \dur, 0.08));
 #+END_SRC
 
 ***** ...and change things 'on the fly'
-#+BEGIN_SRC sclang
+#+BEGIN_SRC ruby
 Pdef(\y, Pbind(\instrument, \blip, \dur, Pbrown(0, 6, 0.1, inf), \freq, 2));
 Pdef(\y).play;
 Pdef(\x).stop;
