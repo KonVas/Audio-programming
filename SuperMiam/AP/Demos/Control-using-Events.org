@@ -34,9 +34,9 @@ Patterns in SuperCollider are streams of values and are a very powerful way to
 control parameters of SynthDefs. There are various implementation of patterns,
 from random distribution to sequential distribution of values.
 
-#+BEGIN_SRC 
+#+BEGIN_SRC ruby
 a = Pseq([1, 2, 3, 4], inf).asStream; //sequence of values from 1 to 4.
-a.next; // run the sequence using. .next method.
+a.next; // run the sequence using. `.next` method.
 #+END_SRC
 
 *** Using a Pbind to control the SynthDefs.
@@ -82,7 +82,7 @@ media composition. Thus, patterns are very powerful interface to interact with
 various SynthDefs and can act as a very expressive tool for laptop improvisation
 with SuperCollider.
 
-** Assignement
+** Assignment
 Create couple of SynthDefs and control them with Pdef and Pbind assigning
 different patterns on SynthDef parameters.
 
