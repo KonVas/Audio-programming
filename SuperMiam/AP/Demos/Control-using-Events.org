@@ -47,25 +47,31 @@ arguments needed for the Pbind, such as duration and the name of the SynthDef, d
 SynthDef or just the ones we are trying to interact with.
 
 **** Pbind example 
+#+BEGIN_SRC ruby
 Pbind(\instrument, \blip, \dur, 0.25, \freq, 1).play;
 Pbind(\instrument, \blip, \dur, 0.25, \freq, 2).play; Pbind(\instrument, \blip,
 \dur, 0.5, \freq, 0.5).play;
 
+
 Pbind(\instrument, \sawy, \dur, 0.1, \speed, 2, \freq, 3).play;
 Pbind(\instrument, \sawy, \dur, 0.01, \speed, 2, \freq, 1).play;
+#+END_SRC
 
 To change something without stopping the sound use a Pdef.
 **** Pdef example
+#+BEGIN_SRC ruby
 Pdef(\x).play;
 Pdef(\x,  Pbind(\instrument, \crackle, \dur, 2));
 Pdef(\x, Pbind(\instrument, \crackle, \chaos, Pwhite(0.1, 2.0, inf),  \envDur, 0.3, \dur, 0.08));
+#+END_SRC
 
 ***** ...and change things 'on the fly'
+#+BEGIN_SRC ruby
 Pdef(\y, Pbind(\instrument, \blip, \dur, Pbrown(0, 6, 0.1, inf), \freq, 2));
 Pdef(\y).play;
-
 Pdef(\x).stop;
 Pdef(\y).stop;
+#+END_SRC
 
 ** Assignement
 Create couple of SynthDefs and control them with Pdef and Pbind and change the argument values using patterns. 
