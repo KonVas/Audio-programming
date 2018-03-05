@@ -73,6 +73,16 @@ Pdef(\x).stop;
 Pdef(\y).stop;
 #+END_SRC
 
+** Discussion
+Patterns are used to control SynthDefs in a higher level; SuperCollider provides
+a lot of pattern implementations, including sequential and random generators.
+Using them one can create various sonic and musical gestures which can be used
+as boiler code for live improvisation and/or generate audio material for fixed
+media composition. Thus, patterns are very powerful interface to interact with
+various SynthDefs and can act as a very expressive tool for laptop improvisation
+with SuperCollider.
+
 ** Assignement
-Create couple of SynthDefs and control them with Pdef and Pbind and change the argument values using patterns. 
+Create couple of SynthDefs and control them with Pdef and Pbind assigning
+different patterns on SynthDef parameters.
 

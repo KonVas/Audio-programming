@@ -36,3 +36,4 @@ Pdef(\x, Pbind(\instrument, \crackle, \chaos, Pwhite(0.1, 2.0, inf),  \envDur, 0
 //...and change things 'on the fly'
 Pdef(\y, Pbind(\instrument, \blip, \dur, Pbrown(0, 6, 0.1, inf), \freq, 2));
 Pdef(\y).play;
+Pdef(\y).stop; //suspend and start later again.
