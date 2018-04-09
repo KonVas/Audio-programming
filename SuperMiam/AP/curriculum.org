@@ -16,7 +16,7 @@ electroacoustic works.
 |    3 | February 21 | Functions, passing arguments, local vs. global variables, and data manipulation (iteration). |           | [[file:./Examples/Functions/][Functions]]        |
 |    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][Synths recipes]]   |
 |    5 | March 7     | Control specs and interaction with SynthDefs (continued from Feb. 28).                       |           |                  |
-|    6 | March 14    | Manipulating SynthDef signals using effects and busses (continued from Feb 28, and March 7). |           |                  |
+|    6 | March 14    | Manipulating SynthDef signals using effects and busses.                                      |           |                  |
 |    7 | March 21    | Streams and events (patterns).                                                               |           |                  |
 |    8 | March 28    | Mid term break.                                                                              |           |                  |
 |    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).               |           |                  |
@@ -45,6 +45,7 @@ electroacoustic works.
   - Additive.
   - Subtractive.
   - Granulation.
+  - Fast Fourier Transformation (FFT).
 - Control and interaction:
   - Interacting with SynthDefs, algorithmic composition.
   - Higher level control of SynthDefs (Streams & Events).
