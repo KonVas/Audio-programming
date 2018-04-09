@@ -5,7 +5,7 @@
 
 
 	{
-		win = Window("Code Display")
+		win = Window("ICE-Code Display")
 		.background_(Color.black)
 		.view.keyDownAction_(
 			{|v, c, m , u, k|
@@ -36,14 +36,14 @@
 	};
 
 
-	this.preProcessor = {|code| newtext.value(index%texts.size, code.asString ++ "\n\n");
+	/*this.preProcessor = {|code| newtext.value(index%texts.size, code.asString ++ "\n\n");
 		index = index + 1;
-		code};
+		code};*/
 
-	/*OSCdef(\cR,{|msg|
+	OSCdef(\cR,{|msg|
 		newtext.value(index%texts.size,msg[1].asString ++ "\n\n" ++ msg[2]);
 		index = index + 1;
-	},"/codeRelay")*/
+	},"/codeRelay")
 
 
 
