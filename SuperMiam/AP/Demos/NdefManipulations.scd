@@ -26,10 +26,9 @@ Ndef(\x, {LFSaw.ar([\freq.kr(120.0), \freq.kr + 2.01]) / 2 * 0.1});
 Ndef(\x, {LFSaw.ar([\freq.kr(120.0), \freq.kr + 2.01]) / 2 * Linen.kr(Impulse.kr(\speed.kr(1)))});
 // Make an Ndef mixer to control the node definitions via a GUI
 
-
-Routine
-
 NdefMixer(s);
 Ndef(\averb, {FreeVerb.ar(Ndef(\x).ar, 0.5, 0.8) }); //load an Ndef for processing.
 
 Ndef(\hpf, {HPF.ar(\in.ar(0), 0.5, 0.8) }); //load an Ndef for processing using an \in.ar control.
+
+Ndef.clear(8)
