@@ -22,19 +22,19 @@ SynthDef(\crackle, {|out = 0, chaos = 1.5, amp = 0.6, envDur = 0.3|
 )
 #+END_SRC 
 
-Run this only to make sure that the SynthDefs are loaded and sound...
-
+Create instances of the above SynthDefs using another class named Synth. In the Synth class we may change the arguments and give new values to its parameters.
 #+BEGIN_SRC supercollider
 x = Synth(\blip, [\amp, 0.4, \out, 0, \dur, 1.0.rand]); //create an instance of 'drony' and assign it on a global var 'x'
 y = Synth(\sawy, [\amp, 0.4, \out, 0, \dur, 10, \speed, 10]); //create an instance of 'saw' and assign it on a global var 'y'
 #+END_SRC
 
+We can also control the SynthDefs using ~set~ method: ~x.set(\dur, 0.25);~
+
 ** Events, streams and patterns.
 Patterns in SuperCollider are streams of values that can be updated /on the
 fly/. Providing an appropriate mapping these can be assigned to the parameters
 of the SynthDefs in order to manipulate the sound outcome in real time.
-SuperCollider provides a wealth of patterns, implementing from random
-distribution to sequential distribution of values.
+SuperCollider provides a wealth of patterns which implement random to sequential distribution of values.
 
 #+BEGIN_SRC supercollider
 a = Pseq([1, 2, 3, 4], inf).asStream; //sequence of values from 1 to 4.
@@ -44,9 +44,14 @@ a.next; //run the sequence using. .next method.
 #+RESULTS:
 
 *** Using a Pbind to control the SynthDefs.
-Pbind is a wrapper for Events in SuperCollider. It takes couple of standard
-arguments needed for the Pbind, such as duration and the name of the SynthDef, denoted a prefix
-\instrument, for example to control the blip SynthDef we do it like this:
+Pbind is a wrapper for Events in SuperCollider. 
+#+BEGIN_SRC sclang
+Pbind(\type, \happyEvent, \degree, Pseq([0, 1, 2, 3, 4, 4, 5, 5, 5, 5, 4, 2, 3, 2, 3, 1], inf), \dur, Pwhite(0.1, 1.0, inf)).play; ); //Evaluate this line.
+#+END_SRC
+
+It takes couple of standard
+arguments that are needed for the Pbind, such as duration and name of the SynthDef, denoted by a prefix
+~\instrument~, for example to control the blip SynthDef we do it like this:
 ~\instrument, \blip~. The Pbind may have all or some arguments contained in the
 SynthDef or just the ones we are trying to interact with.
 
@@ -77,6 +82,8 @@ Pdef(\x).stop;
 Pdef(\y).stop;
 #+END_SRC
 
+#+RESULTS:
+
 ** Discussion
 Patterns are used to control SynthDefs in a higher level; SuperCollider provides
 a lot of pattern implementations, including sequential and random generators.
@@ -89,4 +96,3 @@ with SuperCollider.
 ** Assignment
 Create couple of SynthDefs and control them with Pdef and Pbind assigning
 different patterns on SynthDef parameters.
-
