@@ -17,4 +17,10 @@ Ndef(\sine)[2] = \filter -> {arg in; CombC.ar(in, 0.9, 0.9, 0.3) };
 
 //Controling Ndef with Events - Pbind.
 Ndef(\saw)[1] = \xset -> Pbind(\dur, 0.25, \freq, Pseq([100, 200, 300], inf) )
-Ndef(\saw)[2] = \xset -> Pbind(\dur, 0.25, \freq, Prand([100, 200, 300], inf) )
+Ndef(\saw)[2] = \xset -> Pbind(\dur, 0.25, \freq, Prand([100, 200, 300], inf) );
+
+//Controling Ndef with Ugens.
+Ndef(\ktrl, {LFNoise0.kr(1).range(120, 1220.0) });
+
+Ndef(\saw).map(\freq, Ndef(\ktrl));
+Ndef(\saw).unmap(\freq, Ndef(\ktrl));
