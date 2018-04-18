@@ -1,7 +1,7 @@
 //Granular Synthesis using Patterns.
 //http://supercolliderbook.net/wilsondescrivanch3.pdf
 
-b = Buffer.read(s, "/Applications/SuperCollider/SuperCollider.app/Contents/Resources/sounds/a11wlk01-44_1.aiff"); //use another sound.
+b = Buffer.read(s, "/Applications/SuperCollider.app/Contents/Resources/sounds/a11wlk01-44_1.aiff"); //use another sound.
 b.plot;
 
 t = TempoClock.new; //master clock for Pbindefs

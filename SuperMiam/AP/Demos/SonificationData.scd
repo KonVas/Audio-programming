@@ -24,7 +24,7 @@ Tdef(\x, {
 
 
 Ndef(\grainSin).fadeTime = 0.05;
-Ndef(\grainSin)[1] = \xset -> Pbind(\dur, 0.05, \degree, Pxrand(~dataFile / 0.2, inf));
+Ndef(\grainSin)[1] = \xset -> Pbind(\dur, 0.05, \degree, Pxrand(~dataFile / 0.0fi2, inf));
 
 Ndef(\grainSin).stop(9);
 

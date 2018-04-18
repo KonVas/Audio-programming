@@ -40,7 +40,7 @@ electroacoustic works.
 |    8 | March 28    | Mid term break.                                                                     |                   |               |
 |    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).      |                   |               |
 |   10 | April 11    | Scheduling: tasks routines and /just in time/ scheduling in SC.                     |                   |               |
-|   11 | April 18    | Sound analysis (FFT).                                                               |                   |               |
+|   11 | April 18    | Sound analysis (FFT) in JITLib.                                                     |                   |               |
 |   12 | April 25    | JITLib overview: Ndefs, placeholders and proxies.                                   |                   |               |
 |   13 | May 2       | Graphical User Interfaces (GUI) in SC.                                              |                   |               |
 |   14 | May 9       | External communication, controlers and OSC.                                         |                   |               |
@@ -77,6 +77,6 @@ electroacoustic works.
 * Footnotes
 [fn:1] http://supercollider.github.io/
 
-* Bibliography
+* Reading
 [[https://books.google.com.tr/books?id=nZ-TetwzVcIC&lpg=PP1&pg=PR5#v=onepage&q&f=false][The Computer Music Tutorial]]
 [[https://g.co/kgs/9Pi4qM][The SuperCollider Book]]
