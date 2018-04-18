@@ -17,7 +17,7 @@ electroacoustic works.
 |    4 | February 28 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][Synths recipes]]                 |
 |    5 | March 7     | Control specs and interaction with SynthDefs (continued from Feb. 28).                       |           | [[file:./Examples/Patterns.scd][Patterns]]                       |
 |    6 | March 14    | Manipulating SynthDef signals using effects and busses.                                      |           |                                |
-|    7 | March 21    | Streams and events (patterns).                                                               |           | [[file:./Demos/Control-using-Events.scd][Control Using Events]]           |
+|    7 | March 21    | Streams and events (patterns).                                                               |           | [[file:./Demos/Control-using-Events.org][Control Using Events]]           |
 |    8 | March 28    | Mid term break.                                                                              |           |                                |
 |    9 | April 4     | Algorithmic composition (events, streams, patterns, and stochastic processes).               |           | [[file:./Demos/GrainsWithPatterns.scd][Granulation with Patterns]]      |
 |   10 | April 11    | Sonification practices                                                                       |           | [[file:./Demos/SonificationData.scd][Sonification of arbitrary Data]] |
