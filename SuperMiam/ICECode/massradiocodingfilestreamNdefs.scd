@@ -29,7 +29,7 @@ OSCdef(\mrcFrames, {|msg, time| ~lastTime = time; ~frame = msg[1]; }, '/frame');
 
 ~fchans = 2; // set this to the correct number of channels for the file
 ~cueFrame = if(~frame.isNil, 0, {~frame + (r.myServer.sampleRate * (~lastTime - Main.elapsedTime))});
-b = Buffer.cueSoundFile(s, "still_life.wav".resolveRelative, ~cueFrame, ~fchans);
+b = Buffer.cueSoundFile(s, "manco.wav".resolveRelative, ~cueFrame, ~fchans);
 
 
 Ndef(\source).play(0, 2);
