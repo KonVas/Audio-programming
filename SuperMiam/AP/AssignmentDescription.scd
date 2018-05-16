@@ -16,6 +16,6 @@
 
 //Delivery requirements:
 
-// A video of the screen recording that shows that the system is working not more than 3 minutes.
+// A video of the screen recording that shows that the system is working and is controlable, not more than 3 minutes.
 // A brief explanation of the system describing how it works and what your goals were, weaknesses of the system, and future directions max 300 words.
 
