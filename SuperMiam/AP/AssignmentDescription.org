@@ -1,4 +1,6 @@
-* Make a system that allows you to perform live, or synthesize sounds for a larger scale piece.
+* Semester Assignment Audio Programming Class
+
+** Make a system that allows you to perform live, or synthesize sounds for a larger scale piece.
 
 Some examples include Jammer.scd in live coding repository, at Github. Another
 example to take a look is Poeme Symphonique.scd in the SuperCollider (SC)
