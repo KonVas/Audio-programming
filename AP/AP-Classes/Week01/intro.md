@@ -4,7 +4,8 @@ using the SuperCollider programming language.
 
 Programming looks propably not like this but similarly takes much
 handgrafted detail to make something functional and useful for creative
-applications.  ![](../images/yelilar.jpg)
+applications.
+![](../images/yelilar.jpg)
 
 Once it's done, there are some very fine details that provide efficiency
 to the overall structure, sometimes hard to be seen but making the
@@ -153,6 +154,9 @@ I have uploaded today's class material on a github repository, from
 there you can find files that were created for the class or during the
 class. So make sure you keep this somewhere handy
 (https://github.com/KonVas/SuperMiam).
+
+## Assignment
+Download SuperCollider and experiment with the IDE.
 
 ## Readers
 _A history of programming and Music._ In chapter 4. The Cambridge
