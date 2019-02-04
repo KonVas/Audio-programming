@@ -4,7 +4,7 @@ using the SuperCollider programming language.
 
 Programming looks propably not like this but similarly takes much
 handgrafted detail to make something functional and useful for creative
-applications.  ![](./images/yelilar.jpg)
+applications.  ![](../images/yelilar.jpg)
 
 Once it's done, there are some very fine details that provide efficiency
 to the overall structure, sometimes hard to be seen but making the
