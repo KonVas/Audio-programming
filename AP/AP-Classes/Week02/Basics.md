@@ -130,7 +130,9 @@ inside the folder of this tutorial.
 
 # Reading list
 SuperCollider Handbook pp.6-18 _Messages and Arguments_.
+
 SuperCollider Handbook pp.6-18 _Variables_.
+
 SuperCollider Handbook pp.128 _Objects and Classes_.
 
 ## Links to online resources
