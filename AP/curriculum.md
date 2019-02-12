@@ -1,0 +1,67 @@
+# Audio Programming Class (AP)
+The course aims to introduce students to programming of musical software
+using the SuperCollider[fn:1] (open-source) programming language, a
+state of the art platform for audio synthesis and algorithmic
+composition. It will elaborate in programming concepts for real time
+sound synthesis software used in various contexts including laptop
+performances to interactive installations and electroacoustic works.
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+| Week | Date        | Topic                                                                                        | Demos     | Examples         |
+|------+-------------+----------------------------------------------------------------------------------------------+-----------+------------------|
+|    1 | "Hello World!" Introduction to SC and the IDE.                                               |           |                  |
+|    2 | Server vs. SClang architecture and mathematical operations, arrays                           |           |                  |
+|    3 | Functions, passing arguments, local vs. global variables, and data manipulation (iteration). |           | [[file:./Examples/Functions/][Functions]]        |
+|    4 | SynthDefs, Synths, and Busses synthesis techniques, and signal manipulation.                 | [[https://github.com/KonVas/SuperMiam/blob/master/SuperMiam/AP/Demos/01.SynthDefs.org][SynthDefs]] | [[https://github.com/KonVas/Ionio-liveCode-workshop/tree/master/SynthDefs][Synths recipes]]   |
+|    5 | Control specs and interaction with SynthDefs (continued from Feb. 28).                       |           |                  |
+|    6 | Manipulating SynthDef signals using effects and busses.                                      |           |                  |
+|    7 | Streams and events (patterns).                                                               |           |                  |
+|    8 | Mid term break.                                                                              |           |                  |
+|    9 | Algorithmic composition (events, streams, patterns, and stochastic processes).               |           |                  |
+|   10 | Scheduling: tasks routines and /just in time/ scheduling in SC.                              |           |                  |
+|   11 | Sound analysis (FFT).                                                                        |           |                  |
+|   12 | JITLib overview: Ndefs, placeholders and proxies.                                            |           |                  |
+|   13 | Built-in Graphical User Interfaces (GUI) in SC.                                              |           |                  |
+|   14 | External communication, controlers and OSC.                                                  |           |                  |
+|   15 | Final project (digital instrument/live performance environment).                             |           |                  |
+=======
+
+*A wealth of demos and examples can be found also at the Ionio Live Code
+Workshop repository for each topic according to the topic. >>>>>>>
+c37a2d5d458f14431dad551a6bee1cb2218d8d98
+
+* Suggested topics
+- Introduction:
+  - "Hello World!" and the IDE.
+  - Scoping variables (global vs. local variables).
+  - Parens (calculations).
+  - Arrays (ordered collections).
+  - Functions (the building blocks of programs).
+  - Function callbacks and passing arguments.
+  - Functional programming and Operators.
+- Digital Signal Processing (DSP):
+  - Functions and sound synthesis.
+  - UGens (audio unit generators).
+  - Synth definitions and functions.
+- Recording and generating audio files.
+- Sound Synthesis Techniques:
+  - Additive.
+  - Subtractive.
+  - Granulation.
+  - Fast Fourier Transformation (FFT).
+- Control and interaction:
+  - Interacting with SynthDefs, algorithmic composition.
+  - Higher level control of SynthDefs (Streams & Events).
+  - Specs (mapping and manipulation of control signals).
+- External communication in SC:
+  - Communication protocol implementations.
+  - Mapping of external controllers/hardware interfaces.
+
+* Footnotes
+[fn:1] http://supercollider.github.io/
+
+* Reading
+[[https://books.google.com.tr/books?id=nZ-TetwzVcIC&lpg=PP1&pg=PR5#v=onepage&q&f=false][The Computer Music Tutorial]]
+[[https://g.co/kgs/9Pi4qM][The SuperCollider Book]]
+[[https://g.co/kgs/HYxzQv][The Sonification Handbook]]
