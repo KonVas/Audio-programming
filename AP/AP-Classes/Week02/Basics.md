@@ -136,5 +136,6 @@ SuperCollider Handbook pp.6-18 _Variables_.
 SuperCollider Handbook pp.128 _Objects and Classes_.
 
 ## Links to online resources
-Object Oriented Programming for Beginners:
+Object Oriented Programming for Beginners found at this link:
+
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
