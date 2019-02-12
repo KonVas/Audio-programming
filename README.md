@@ -13,5 +13,7 @@ Generative and Sound Art installations.
 
 ## Evaluation system
 Participation/attendance 25%
+
 Assignments	25%
+
 Final project	50%
