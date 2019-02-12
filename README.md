@@ -1,5 +1,4 @@
 # Audio Programming
-
 This is a step by step tutorial for audio programming using the
 SuperCollider programming language. The examples are developed from a
 beginners point of view but familiarity with DSP and sound synthesis
