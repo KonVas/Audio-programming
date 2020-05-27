@@ -2,25 +2,27 @@
 
 ** Make a system that allows you to perform live, or synthesize sounds for a larger scale piece.
 
-Some examples include Jammer.scd in live coding repository, at Github. Another
-example to take a look is Poeme Symphonique.scd in the SuperCollider (SC)
-folder, the one that you downloaded to install SC. For the system you may use
-things from the repository and material such as demos & examples we have
-developed during our classes, including: SynthDefs, Ndefs, Tdefs, and anything
-else you have been working with from your end.
+For the system you may use things from the repository and material we have developed during our classes, including: SynthDefs, Routines, Tdefs, and anything else you have been working with from your end.
 
-** Things to consider while developing the system:
+** While the artistic aesthetics are trusted to you and towards electroacoustic music, there are some things that need to be taken into consideration while developing the project and need to be reflected on your programming skills.
++ Functionality (is it working fine, bugs and technical issues must be taken care as this is your final product).
++ Interactivity 
++ Extendability (how easy is to add more things to it in the future).
++ Discuss some of the strengths and weaknesses of the system relative to your compositional/artistic workflow.
 
-+ Functionality
-+ Interactivity
-+ Extendability
+** Some key elements that you must be able to demonstrate with your project are as follows:
++ Signal routing and processing of signal chain.
++ Schedulling (routines, tdefs etc.)
++ Iteration of data types
+  + distribution for mapping and allocation of arrays/dictionaries of the above.
 
 ** Delivery requirements:
- A video of the screen recording that shows that the system is working and is
- controlable, not more than 3 minutes. A brief explanation of the system
- describing your goals and how it works, weaknesses of the system, and future
- directions max 300 words. In case you have copied code from somewhere it is
- good practice mention that in text.
+ All code of the project with comments inside your code document or an accompanying text file (not more than 300 words).
+ In case of additional libraries used needs to be stated in the text. 
+ A video of the screen recording that shows that the system is functional as expected (not more than 3 minutes). 
+ A brief explanation of the system describing your goals and how it works, weaknesses of the system, and future directions max 300 words. In case you have copied code from somewhere it is good practice mention that in text.
 
-** Deadline: 1st of June (extended to 4th of June).
-***  Please send me a google drive link to a folder with everything described above.
+** Deadline:somewhere around between the 12 and 15 (tbc).
+***  Deliver as zip folder including all code, video[1]  and accompanying text.
+
+[1] A link to a video should be okay, not a physical one.
