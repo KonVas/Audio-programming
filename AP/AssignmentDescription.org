@@ -2,12 +2,7 @@
 
 ** Make a system that allows you to perform live, or synthesize sounds for a larger scale piece.
 
-Some examples include Jammer.scd in live coding repository, at Github. Another
-example to take a look is Poeme Symphonique.scd in the SuperCollider (SC)
-folder, the one that you downloaded to install SC. For the system you may use
-things from the repository and material such as demos & examples we have
-developed during our classes, including: SynthDefs, Ndefs, Tdefs, and anything
-else you have been working with from your end.
+For this system you may use things from the repository and material such as demos & examples we have developed during our classes, using: SynthDefs.
 
 ** Things to consider while developing the system:
 
@@ -16,11 +11,7 @@ else you have been working with from your end.
 + Extendability
 
 ** Delivery requirements:
- A video of the screen recording that shows that the system is working and is
- controlable, not more than 3 minutes. A brief explanation of the system
- describing your goals and how it works, weaknesses of the system, and future
- directions max 300 words. In case you have copied code from somewhere it is
- good practice mention that in text.
+A video of the project not less than 3' to 7' which shows that the system is working and is controlable. A brief explanation of the system describing your goals and how it works, weaknesses of the system, and future directions max 300 words. In case you have copied code from somewhere it is good practice mention that in text.
 
 ** Deadline: somewhere around the second week of June
 ***  Please send me a google drive link to a folder with everything described above, after deadline bets are off.
