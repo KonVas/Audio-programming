@@ -11,8 +11,10 @@ contexts from laptop improvisation and composition of fixed media to
 Generative and Sound Art installations.
 
 ## Evaluation system
-Participation/attendance 25%
+Participation/attendance 15%
 
-Assignments	25%
+Assignments	40%
 
-Final project	50%
+Mid term project 20%
+
+Final project	25%
