@@ -157,11 +157,15 @@ class. So make sure you keep this somewhere handy
 (https://github.com/KonVas/SuperMiam).
 
 ## Assignment
-Download SuperCollider and experiment with the IDE.
+Download SuperCollider and experiment with the IDE. Write on a paper an algorithm, a set of instructions for a specific tasks. Order of tasks is important as the goal of the algorithm. You may think in terms of music, i.e., consider a signal (audio or synthesised) which you want to create a specific route of this and its processing.
 
-## Readers
+## Weekly Reader
 _A history of programming and Music._ In chapter 4. The Cambridge
 Companion to Electronic Music, edited by Nick Collins and Julio
 d'Escrivan. (can be found at MIAM library).
 
-The SuperCollider Book. MIT Press.
+## Bibliography
+
+ Scott Wilson, David Cottle and Nick Collins. 2011. The SuperCollider Book. The MIT Press.
+
+Eric S. Raymond. 2001. The Cathedral and the Bazaar. O'Reilly Media, Inc. ISBN: 9780596001087
