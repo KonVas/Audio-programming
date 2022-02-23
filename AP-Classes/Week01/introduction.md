@@ -19,8 +19,7 @@ language for audio synthesis; it provides a state of the art server to
 create sound and a programming language to interact and evaluate code,
 as well as a fully functional IDE and help browser. SC is oriented for
 sound synthesis and algorithmic composition providing a series of ready
-made classes to manipulate and create real time sound on the computer.
-
+made classes to manipulate and create real time sound on the computer. 
 Creating sound with SC can be very rewarding using its ready made unit
 generators to build novel instruments and sound generators. Firstly,
 let's take a look on the IDE of the SuperCollider.  
@@ -157,7 +156,7 @@ class. So make sure you keep this somewhere handy
 (https://github.com/KonVas/SuperMiam).
 
 ## Assignment
-Download SuperCollider and experiment with the IDE. Write on a paper an algorithm, a set of instructions for a specific tasks. Order of tasks is important as the goal of the algorithm. You may think in terms of music, i.e., consider a signal (audio or synthesised) which you want to create a specific route of this and its processing.
+Download SuperCollider and experiment with the IDE. Write on a paper a program with algorithms, that is, a set of instructions for a specific tasks. Order of tasks is important as the goal of the algorithm. You may think in terms of music, i.e., consider a signal (audio or synthesised) which you want to create a specific route of this and its processing.
 
 ## Weekly Reader
 _A history of programming and Music._ In chapter 4. The Cambridge
