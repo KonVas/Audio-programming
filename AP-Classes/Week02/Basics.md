@@ -117,12 +117,6 @@ lorem ++ " " ++ ipsum
 What if ````ipsum```` variable can't co exist with the rest of the
 declared variables inside the same region.
 
-## Assignment
-Make a region that has some meaning as a text, for
-example try to explain what your breakfast consisted today, or something
-you would feel more comfortable sharing with SC and your computer's
-electrons.  
-
 ## Functions
 Functions are the building blocks of our programs, so if a program is a
 house then functions are the bricks. See the Functions file
