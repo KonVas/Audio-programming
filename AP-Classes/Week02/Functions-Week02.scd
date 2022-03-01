@@ -37,6 +37,32 @@ x = {
 
 x.value(0.001);
 
+//Some examples about locals and global variables
+//Local Vars vs Global Vars
+(
+var randomValue, string;
+randomValue = 100.0.rand;
+string = "catch a rand value";
+(string + randomValue);
+)
+
+~randomValue = 100.0.rand.round;
+
+~string = "catch a rand value";
+
+//Combining Arguments and Variables in Functions
+//this is also known as functional programming.
+
+(
+~randomAge = {
+	arg age;
+	var string = "My age is:";
+	(string + age)
+}
+)
+
+~randomAge.value(20.rand);
+
 // Methods...
 
 
