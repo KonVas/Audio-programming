@@ -126,7 +126,25 @@ electrons.
 ## Functions
 Functions are the building blocks of our programs, so if a program is a
 house then functions are the bricks. See the Functions file
-inside the folder of this tutorial.
+inside the folder of this tutorial. Functions are useful building blocks which can provide some useful functionality for generative issues and interactive features in your programs. See below for some examples and notes in this week's folder.
+
+````
+//Combining Arguments and Variables in Functions
+//this is also known as functional programming.
+
+(
+~randomAge = {
+	arg age;
+	var string = "My age is:";
+	(string + age)
+}
+)
+
+~randomAge.value(20.rand);
+````
+
+## Assignment
+Make a program that creates some useful information for a musical use. Make use of some functional programming ideas where you can interact with externally and pass some values combining variables (local and global if necessary) and arguments alike.
 
 # Reading list
 SuperCollider Handbook pp.6-18 _Messages and Arguments_.
