@@ -49,5 +49,6 @@ the error of your code, and it will help you to debug the code that is
 causing the problem.
 
 ## Readers
-SuperCollider's Help File: Server Architecture (https://doc.sccode.org/Reference/Server-Architecture.html)
+SuperCollider's Help File: (Server Architecture)[https://doc.sccode.org/Reference/Server-Architecture.htm]
+SuperCollider's Help File: (Server vs Client)[https://doc.sccode.org/Guides/ClientVsServer.htmh]
 
