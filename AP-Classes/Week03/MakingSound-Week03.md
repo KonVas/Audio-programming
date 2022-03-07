@@ -2,11 +2,15 @@
 Run the following lines one each time and see at the post window. To
 create a simple sound in SC run the last line, it will create the
 simplest sound you can ever imagine, that is a sine oscillator. Once
-this is done we can move on with more interesting examples.
+this is done we can move on with more interesting examples. 
+
+Before we continue with sound we need to clarify some interesting concepts, 
+that will follow us from now on while creating sound synthesis programs.
+Please take a look on the _Server Architecture_ (link at the end of this tutorial) for some terminology according to the SC environment.
 
 ````js
 "Hello World";
-s.server;
+s.boot;
 (
 //double click to select all region
     play{
@@ -41,3 +45,7 @@ wrong or right, most likely in the first case the information coming
 from SC post window is rather important, as it will let you know what is
 the error of your code, and it will help you to debug the code that is
 causing the problem.
+
+## Readers
+SuperCollider's Help File: Server Architecture (https://doc.sccode.org/Reference/Server-Architecture.html)
+
