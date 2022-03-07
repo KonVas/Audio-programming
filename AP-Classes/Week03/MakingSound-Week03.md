@@ -4,11 +4,21 @@ create a simple sound in SC run the last line, it will create the
 simplest sound you can ever imagine, that is a sine oscillator. Once
 this is done we can move on with more interesting examples. 
 
+## Useful to this chapter
+Week: 02 - [Vars](https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Variables-Week02.scd) & [Functions](https://github.com/KonVas/SuperMiam/blob/master/AP-Classes/Week02/Functions-Week02.scd)
+
 Before we continue with sound we need to clarify some interesting concepts, 
 that will follow us from now on while creating sound synthesis programs.
 Please take a look on the _Server Architecture_ (link at the end of this tutorial) for some terminology according to the SC environment.
 
-Lines below are creating some strings and also boots the server. At this point make sure you have understood how the _scsynth_ differs from the client.
+Lines below are creating some strings and also boots the server. 
+At this point make sure you have understood how the _scsynth_ differs from the client. 
+In SC every time you execute some code it will run as a command and you
+will see the result of the command in real time. That is to say that SC
+is a real time environment making ideal to improvise and manipulate code
+on the fly. More about this later. Right now we need to make sure we
+know how to execute code and make some sense when looking at the post
+window after triggering a Node Tree.
 
 ````js
 "Hello World";
@@ -25,13 +35,6 @@ Notice the semicolon sign at the end of each line, this is used to
 separate each command, if the semicolon is missing then the code will be
 executed as one line, this is the most common syntax error for beginners
 and not.
-
-In SC every time you execute some code it will run as a command and you
-will see the result of the command in real time. That is to say that SC
-is a real time environment making ideal to improvise and manipulate code
-on the fly. More about this later. Right now we need to make sure we
-know how to execute code and make some sense when looking at the post
-window.
 
 ```` js
 //execute these lines below separately
