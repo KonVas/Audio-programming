@@ -8,6 +8,8 @@ Before we continue with sound we need to clarify some interesting concepts,
 that will follow us from now on while creating sound synthesis programs.
 Please take a look on the _Server Architecture_ (link at the end of this tutorial) for some terminology according to the SC environment.
 
+Lines below are creating some strings and also boots the server. At this point make sure you have understood how the _scsynth_ differs from the client.
+
 ````js
 "Hello World";
 s.boot;
