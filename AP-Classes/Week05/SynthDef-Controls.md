@@ -2,6 +2,9 @@
 [Streams and Patterns](http://doc.sccode.org/Tutorials/Streams-Patterns-Events1.html) in SC is a very convenient way to create control structures when bind with SynthDefs. SC has great support for patterns and their control and sequence to stream various data in real time. Patterns are a template which can be used to create any number of more
 interesting streams. They have names beginning with ```P```.
 
+## Useful to know
+SynthDefs, Synths, EnvGen, Env.
+
 > The pattern below will generate an infinite stream of a random choice of 1, 2, or 3.
 ````js
 a = Prand([1, 2, 3], inf).asStream;
