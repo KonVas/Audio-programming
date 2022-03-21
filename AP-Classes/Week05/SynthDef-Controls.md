@@ -1,18 +1,12 @@
 # Patterns in SC
-SC has great support for patterns and streams. A stream is a stream of
-something. You can ask streams for their next value with the next
-method. All objects are trivially a stream of themselves
+[Streams and Patterns](http://doc.sccode.org/Tutorials/Streams-Patterns-Events1.html) in SC is a very convenient way to create control structures when bind with SynthDefs. SC has great support for patterns and their control and sequence to stream various data in real time. Patterns are a template which can be used to create any number of more
+interesting streams. They have names beginning with ```P```.
 
->Do this couple of times.
-
+> The pattern below will generate an infinite stream of a random choice of 1, 2, or 3.
 ````js
-1.next;
-````
-Patterns are a template which can be used to create any number of more
-interesting streams. They have names beginning with ````P````.
-
-> An infinite stream of a random choice of 1, 2, or 3.
-````js
+a = Prand([1, 2, 3], inf).asStream;
+a.next; // do this many times
+//this will create a sequential stream though
 a = Prand([1, 2, 3], inf).asStream;
 a.next; // do this many times
 ````
