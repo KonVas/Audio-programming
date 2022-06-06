@@ -12,7 +12,7 @@ For this system you may use things from the repository and material such as demo
 + _musicality/artistic usability_
 
 ** Delivery requirements:
-A video of the project not less than 3' to 7' which shows that the system is working and is controlable. A brief explanation of the system describing your goals and how it works, weaknesses of the system, and future directions max 300 words, with references and relevant links mentioned accordingly. In case you have copied code from somewhere it is good practice mention that in the text. The project should not be something that exceeds the knowledge and thus you must be able to discuss the code and possibly reproduce it in case it is required, so not safari code in the web to impress amongst users and teachers alike.
+A video of the project not less than 3' to 7' which shows that the system is working and is controlable. A brief explanation of the system describing your goals and how it works, weaknesses of the system, and future directions between 150 and 300 words, with references and relevant links mentioned accordingly if available. In case you have copied code from somewhere it is good practice mention that in the text. The project should not be something that exceeds the knowledge and thus you must be able to discuss the code and possibly reproduce it in case it is required, so not safari code in the web to impress amongst users and teachers alike.
 
-** Deadline: somewhere around the second week of June
+** Deadline: somewhere around the end of second week of June (18th).
 ***  Please send me a google drive link to a folder with everything described above, after deadline bets are off.
