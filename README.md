@@ -15,7 +15,7 @@ Students will also have the opportunity to create their own digital instruments,
 Throughout the course, students will develop a solid foundation in digital audio programming and gain practical experience in using SuperCollider to create innovative and expressive sound projects.
 
 ## Topics
-The topics covered in the course, as outlined in the [curriculum]([An overview of topics discussed on each course found at this link](https://github.com/KonVas/SuperMiam/blob/master/curriculum.org)) on the SuperMiam GitHub repository, include:
+The topics covered in the course, as outlined in the [curriculum](https://github.com/KonVas/SuperMiam/blob/master/curriculum.org) on the SuperMiam GitHub repository, include:
 
 Introduction to SuperCollider and digital signal processing
 - Sound synthesis and sampling
