@@ -1,4 +1,4 @@
-# Audio Programming
+# Audio Programming Class
 Audio programming in SuperCollider is a course that introduces students to the SuperCollider programming language and its applications in the creation and manipulation of digital audio. The course covers the fundamentals of digital signal processing (DSP), computer music theory, and the principles of sound synthesis.
 
 Through hands-on exercises and projects, students will learn how to use SuperCollider to create, edit, and manipulate sound in real-time. The course will cover a range of topics, including:
