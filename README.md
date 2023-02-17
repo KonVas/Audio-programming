@@ -24,7 +24,8 @@ Introduction to SuperCollider and digital signal processing
 - SuperCollider language and syntax
 - Object-oriented programming in SuperCollider
 - Integrating SuperCollider with other tools and technologies
-- For each topic, the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments appear to be designed to help students apply the concepts covered in each topic to their own music creation and production projects.
+
+Each topic from the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments appear to be designed to help students apply the concepts covered in each topic to their own music creation and production projects.
 
 Overall, the course provides a solid introduction to SuperCollider programming for music creation, with a focus on practical application and hands-on experience. Based on the curriculum provided in the SuperMiam GitHub repository, it appears that the course you are referring to will be structured around a series of topics, with homework assignments given to reinforce the concepts covered in each topic. The topics covered in the course are as follows:
 
