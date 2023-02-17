@@ -25,9 +25,7 @@ performances to interactive installations and electroacoustic works.
 |   15 | Final project (digital instrument/live performance environment).                             |           |                  |
 =======
 
-*A wealth of demos and examples can be found also at the Ionio Live Code
-Workshop repository for each topic according to the topic. >>>>>>>
-c37a2d5d458f14431dad551a6bee1cb2218d8d98
+
 
 * Suggested topics
 - Introduction:
@@ -58,8 +56,3 @@ c37a2d5d458f14431dad551a6bee1cb2218d8d98
 
 * Footnotes
 [fn:1] http://supercollider.github.io/
-
-* Reading
-[[https://books.google.com.tr/books?id=nZ-TetwzVcIC&lpg=PP1&pg=PR5#v=onepage&q&f=false][The Computer Music Tutorial]]
-[[https://g.co/kgs/9Pi4qM][The SuperCollider Book]]
-[[https://g.co/kgs/HYxzQv][The Sonification Handbook]]
