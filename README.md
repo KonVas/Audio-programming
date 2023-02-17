@@ -25,9 +25,9 @@ Introduction to SuperCollider and digital signal processing
 - Object-oriented programming in SuperCollider
 - Integrating SuperCollider with other tools and technologies
 
-Each topic from the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments appear to be designed to help students apply the concepts covered in each topic to their own music creation and production projects.
+Each topic from the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments arre designed to help students apply the concepts covered in each topic to their own music creation and production projects.
 
-The course provides a solid introduction to SuperCollider programming for music creation, with a focus on practical application and hands-on experience. Based on the curriculum provided in the SuperMiam GitHub repository, it appears that the course you are referring to will be structured around a series of topics, with homework assignments given to reinforce the concepts covered in each topic. The topics covered in the course are as follows:
+The course provides a solid introduction to SuperCollider programming for music creation, with a focus on practical application and hands-on experience. Based on the curriculum provided in this repository, the course is structured around a series of topics, with homework assignments given to reinforce the concepts covered in each topic. The topics covered in the course are as follows:
 
 Week 1: Introduction to SuperCollider and digital signal processing
 
@@ -35,43 +35,49 @@ Overview of SuperCollider and its features
 Introduction to digital signal processing
 Reading: "The SuperCollider Book" by Scott Wilson and David Cottle (chapters 1-4)
 Homework: Create a simple sound using SuperCollider and apply basic DSP techniques
+
 Week 2: Sound synthesis and sampling
 
 Different types of sound synthesis
 Sampling and playback
 Reading: "The SuperCollider Book" (chapters 5-7)
 Homework: Create a synthesizer or sampler instrument using SuperCollider
+
 Week 3: Sequencing and arranging sound
 
 Building musical structures and patterns
 Manipulating sound in real-time
 Reading: "The SuperCollider Book" (chapters 8-10)
 Homework: Create a short piece of music using SuperCollider and experiment with sequencing techniques
+
 Week 4: Effects and processing
 
 Applying effects to sound
 Using real-time processing for live performance
 Reading: "The SuperCollider Book" (chapters 11-12)
 Homework: Create an effect or processing chain using SuperCollider and apply it to a sound or piece of music
+
 Week 5: SuperCollider language and syntax
 
 Overview of the SuperCollider language
 Syntax and control structures
 Reading: "The SuperCollider Language" by James McCartney (chapters 1-3)
 Homework: Write a simple SuperCollider program using the language and syntax covered
+
 Week 6: Object-oriented programming in SuperCollider
 
 Introduction to object-oriented programming
 Creating and using classes in SuperCollider
 Reading: "The SuperCollider Language" (chapters 4-6)
 Homework: Create a new class in SuperCollider and use it to create a new sound or effect
+
 Week 7: Integrating SuperCollider with other tools and technologies
 
 Using SuperCollider with other software and hardware
 Reading: "The SuperCollider Book" (chapter 18)
 Homework: Integrate SuperCollider with a music production tool or technology of your choice.
 
-Overall, the course provides a comprehensive introduction to SuperCollider programming for music creation, with a strong focus on practical application and hands-on experience.
+The course provides a comprehensive introduction to SuperCollider programming for music creation, with a strong focus on practical application and hands-on experience.
 
 ## Evaluation
 * Week assignements 20%
