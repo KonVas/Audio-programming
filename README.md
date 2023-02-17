@@ -12,24 +12,21 @@ Effects: applying effects to sound, including reverb, delay, and distortion
 MIDI and OSC: integrating SuperCollider with external controllers and devices
 Students will also have the opportunity to create their own digital instruments, effects, and compositions, and to experiment with different techniques and approaches to sound design.
 
-Throughout the course, students will develop a solid foundation in digital audio programming and gain practical experience in using SuperCollider to create innovative and expressive sound projects. [An overview of topics discussed on each course found at this link](https://github.com/KonVas/SuperMiam/blob/master/curriculum.org)
+Throughout the course, students will develop a solid foundation in digital audio programming and gain practical experience in using SuperCollider to create innovative and expressive sound projects.
 
 ## Topics
-The topics covered in the course, as outlined in the curriculum on the SuperMiam GitHub repository, include:
+The topics covered in the course, as outlined in the [curriculum]([An overview of topics discussed on each course found at this link](https://github.com/KonVas/SuperMiam/blob/master/curriculum.org)) on the SuperMiam GitHub repository, include:
 
 Introduction to SuperCollider and digital signal processing
-Sound synthesis and sampling
-Sequencing and arranging sound
-Effects and processing
-SuperCollider language and syntax
-Object-oriented programming in SuperCollider
-Integrating SuperCollider with other tools and technologies
-For each topic, the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments appear to be designed to help students apply the concepts covered in each topic to their own music creation and production projects.
+- Sound synthesis and sampling
+- Sequencing and arranging sound
+- Effects and processing
+- SuperCollider language and syntax
+- Object-oriented programming in SuperCollider
+- Integrating SuperCollider with other tools and technologies
+- For each topic, the curriculum includes a list of readings and resources, as well as specific exercises and assignments for students to complete. The homework assignments appear to be designed to help students apply the concepts covered in each topic to their own music creation and production projects.
 
-Overall, the course provides a solid introduction to SuperCollider programming for music creation, with a focus on practical application and hands-on experience.
-
-## Weeks
-Based on the curriculum provided in the SuperMiam GitHub repository, it appears that the course you are referring to will be structured around a series of topics, with homework assignments given to reinforce the concepts covered in each topic. The topics covered in the course are as follows:
+Overall, the course provides a solid introduction to SuperCollider programming for music creation, with a focus on practical application and hands-on experience. Based on the curriculum provided in the SuperMiam GitHub repository, it appears that the course you are referring to will be structured around a series of topics, with homework assignments given to reinforce the concepts covered in each topic. The topics covered in the course are as follows:
 
 Week 1: Introduction to SuperCollider and digital signal processing
 
