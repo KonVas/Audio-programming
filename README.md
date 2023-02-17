@@ -71,3 +71,9 @@ Reading: "The SuperCollider Book" (chapter 18)
 Homework: Integrate SuperCollider with a music production tool or technology of your choice.
 
 Overall, it appears that the course provides a comprehensive introduction to SuperCollider programming for music creation, with a strong focus on practical application and hands-on experience.
+
+## Evaluation
+Week assignements 20%
+Mid-term project 30%
+Attendance/participation in class 15%
+Final project 35%
