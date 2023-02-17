@@ -6,8 +6,6 @@ composition. It will elaborate in programming concepts for real time
 sound synthesis software used in various contexts including laptop
 performances to interactive installations and electroacoustic works.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 | Week | Date        | Topic                                                                                        | Demos     | Examples         |
 |------+-------------+----------------------------------------------------------------------------------------------+-----------+------------------|
 |    1 | "Hello World!" Introduction to SC and the IDE.                                               |           |                  |
