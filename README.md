@@ -68,5 +68,6 @@ Week 7: Integrating SuperCollider with other tools and technologies
 
 Using SuperCollider with other software and hardware
 Reading: "The SuperCollider Book" (chapter 18)
-Homework: Integrate SuperCollider with a music production tool or technology of your choice
+Homework: Integrate SuperCollider with a music production tool or technology of your choice.
+
 Overall, it appears that the course provides a comprehensive introduction to SuperCollider programming for music creation, with a strong focus on practical application and hands-on experience.
