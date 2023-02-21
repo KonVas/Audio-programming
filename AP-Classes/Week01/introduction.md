@@ -74,14 +74,14 @@ testing run this on top of your blank page in the IDE.
 ### Running a line
 There is no bigger pleasure of executing something in SC and realizing
 that your code was evaluated properly and no complains in post window
-appeared.
+appeared. While inside the IDE, place cursor at the end of the line and pres "Shift-Enter". Or Menu > Language > Execute Line or Region.
 
 ### Running two lines
 In the previous example we run a single line. Okay, but common sense
 suggests that, even the most clever and coding ninjas have to run more
 than one line to make something useful. So this why the semicolon sign
 in your keyboard will be your best friend from now on, while practicing
-SC. The ; is the sign that divides two lines of code, allowing to run
+SC. The `;` is the sign that divides two lines of code, allowing to run
 bigger expressions, so assuming we have two math operations below:
 
 ````
